@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url('images/village.jpg');
+
+}
+
+.top-bar {
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.container{
+    width:1080px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.col-2 {
+    flex:2;
+}
+
+.img-box, .text-box {
+    display: inline-flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.noodles {
+    height:300px;
+    box-shadow: 5px 10px yellow;
+}
+
+.text-bkgrd {
+    width:inherit;
+    margin:20px;
+    padding: 10px;
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.text-box {
+    width:500px;
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.text-box {
+    padding: 10px;
+}
+
+.top-bar h1 {
+    text-align: center;
+}
+
+.like-box {
+    padding:10px;
+    background-color: yellow;
+}
+
+.like-btn, .comment, .submit-btn {
+    display: block;
+    margin:20px;
+}
+
+.like-btn {
+    padding: 8px 20px;
+    background-color: blueviolet;
+    font-family: 'Comic Sans MS', 'Comic Sans MS', cursive;
+    box-shadow: 2px 5px red;
+}
+
+.comment {
+    height:100px;
+    width:300px;
+}
+
+.submit-btn {
+    padding:5px 10px;
+    background-color: green;
+    font-family: 'Comic Sans MS', 'Comic Sans MS', cursive;
+    box-shadow: 5px 10px greenyellow;
+}
